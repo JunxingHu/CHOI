@@ -57,13 +57,13 @@ Our method achieves the following performance on the HO3D test set:
 | :----  | :---: | :----: | :-------------------: |
 | CHOI (Ours)   | 0.393 | 0.633  |      0.646            |
 
-#### For video results:
+For video inputs from the OakInk dataset:
 
 <p align="left">
-    <img src="./vis/oakink_select_can.gif">
-    <img src="./vis/oakink_select_camera.gif">
+    <img src="./vis/oakink_select_can_text.gif">
+    <img src="./vis/oakink_select_camera_text.gif">
     <br>
-    <sup>From left to right are input, GT, IHOI, and CHOI(ours). The video is reconstructed frame-by-frame without post-processing. The objects are unseen during the training.</sup>
+    <sup>The video is reconstructed frame-by-frame without post-processing. The objects are unseen during the training.</sup>
 </p>
 
 More results: [Project Page](https://junxinghu.github.io/projects/hoi.html)
