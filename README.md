@@ -1,6 +1,16 @@
-# Learning Explicit Contact for Implicit Reconstruction of Hand-held Objects from Monocular Images
+# CHOI
 
-This repository is the official implementation of *Learning Explicit Contact for Implicit Reconstruction of Hand-held Objects from Monocular Images* (AAAI 2024). 
+This repository is the official implementation of the following paper:
+
+**Learning Explicit Contact for Implicit Reconstruction of Hand-held Objects from Monocular Images** 
+
+Junxing Hu, Hongwen Zhang, Zerui Chen, Mengcheng Li, Yunlong Wang, Yebin Liu, Zhenan Sun
+
+AAAI, 2024
+
+[[Project Page]](https://junxinghu.github.io/projects/hoi.html) [[Paper]](https://arxiv.org/abs/2305.20089)
+
+[![CHOI](./vis/github_img_choi.png "CHOI")](https://junxinghu.github.io/projects/hoi.html)
 
 
 ## Requirements
@@ -47,9 +57,19 @@ Our method achieves the following performance on the HO3D test set:
 | :----  | :---: | :----: | :-------------------: |
 | CHOI (Ours)   | 0.393 | 0.633  |      0.646            |
 
+#### For video results:
+
+<p align="left">
+    <img src="./vis/oakink_select_can.gif">
+    <img src="./vis/oakink_select_camera.gif">
+    <br>
+    <sup>From left to right are input, GT, IHOI, and CHOI(ours). The video is reconstructed frame-by-frame without post-processing. The objects are unseen during the training.</sup>
+</p>
+
+More results: [Project Page](https://junxinghu.github.io/projects/hoi.html)
 
 
-## Citations
+## Citation
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
